@@ -8,7 +8,7 @@ const dest = Path.join(__dirname, '../dist');
 module.exports = {
   entry: [
     Path.resolve(__dirname, './polyfills'),
-    Path.resolve(__dirname, '../src/scripts/index')
+    Path.resolve(__dirname, '../src/index')
   ],
   output: {
     path: dest,
